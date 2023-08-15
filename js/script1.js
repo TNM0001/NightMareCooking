@@ -1,5 +1,13 @@
-// Change the text color of <p> when the page loads
 window.onload = function () {
-    var paragraph = document.querySelector('p');
-    paragraph.style.color = 'blue';
+    var video = document.getElementById('intro-video');
+    var content = document.getElementById('content');
+
+    // Play the video
+    video.play();
+
+    // When the video ends, hide the video and show the content
+    video.addEventListener('ended', function () {
+        video.style.display = 'none';
+        content.style.display = 'block';
+    });
 };
