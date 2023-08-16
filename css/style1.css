@@ -5,7 +5,7 @@ body, html {
     overflow: hidden;
 }
 
-#intro-video {
+#background-video {
     position: fixed;
     top: 0;
     left: 0;
@@ -15,6 +15,16 @@ body, html {
     z-index: -1;
 }
 
+#intro-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
+
 #content {
     display: none;
     position: absolute;
@@ -22,7 +32,8 @@ body, html {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-image: url('path-to-your-image/background.gif');
+    background-size: cover;
     color: white;
     text-align: center;
     padding: 20px;
