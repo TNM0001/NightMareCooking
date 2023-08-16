@@ -2,6 +2,12 @@ const introVideo = document.getElementById('intro-video');
 const skipButton = document.getElementById('skip-button');
 const content = document.getElementById('content');
 
+introVideo.addEventListener('timeupdate', function() {
+    if (introVideo.currentTime > 3) {
+        skipButton.style.display = 'block';
+    }
+});
+
 introVideo.addEventListener('ended', () => {
     introVideo.style.display = 'none';
     content.style.display = 'block';
