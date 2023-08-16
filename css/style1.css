@@ -30,6 +30,7 @@ body, html {
     font-family: Arial, sans-serif;
     animation: fadeIn 2s ease forwards;
     overflow: hidden;
+    z-index: 1;
 }
 
 @keyframes fadeIn {
