@@ -29,6 +29,9 @@ body, html {
     padding: 20px;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+}
+
+.fade-in {
     animation: fadeIn 2s ease forwards;
 }
 

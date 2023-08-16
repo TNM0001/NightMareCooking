@@ -12,7 +12,7 @@ window.onload = function () {
 
     video.addEventListener('ended', function () {
         video.style.display = 'none';
-        overview.style.display = 'none'; // Hide the overview section
+        overview.style.display = 'none';
         content.style.display = 'block';
     });
 };
