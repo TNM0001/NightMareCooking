@@ -1,6 +1,5 @@
 # NightMareCooking
 
-A quick and easy one-stop-shop for the good stuff you want to see.
 Open-source website hosted with Github Pages using HTML, CSS, and JavaScript.
 Coded by therealtnm on Discord.
 
