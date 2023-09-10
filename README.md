@@ -7,6 +7,10 @@ Coded by therealtnm on Discord.
 
 -'index.html': The main source code which is what the site is defined as.
 
+-'recipes.html': The file where the NightMare recipes are stored
+
+-'bubblerecipes.html': The file where the NightMare recipes are stored. Massive thanks to bubblegumbitch on Discord for being a contributor for the recipes, she's a amazing mother and great person.
+
 -'js': Contains all of the JavaScript scripts, that's pretty much it. Just used for interactions.
 
 -'css': Contains all of the CSS files, that's pretty much it. Just used for customization.
@@ -38,3 +42,4 @@ The MIT License is a permissive open-source license that allows you to use, copy
 # Credits: 
 
 Lead Developer: therealtnm on Discord
+Recipes Contributor: bubblegumbitch on Discord
