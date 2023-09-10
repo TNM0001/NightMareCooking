@@ -9,13 +9,13 @@ Coded by therealtnm on Discord.
 
 # Table of Contents:
 
--'index.html': The main src which is what the site runs on, the CSS/JS files are connected to the html file.
+-'index.html': The main source code which is what the site is defined as.
 
--'media': Contains the media which includes anything from .mp3 to .mp4 files, pretty much just video/audio files for the website.
+-'js': Contains all of the JavaScript scripts, that's pretty much it. Just used for interactions.
 
--'js': Contains all of the JavaScript scripts, that's pretty much it. Just used for interactions mainly such as the intro video's playback etc.
+-'css': Contains all of the CSS files, that's pretty much it. Just used for customization.
 
--'css': Contains all of the CSS files, that's pretty much it. Just used for customization mainly.
+-'README.md": Just provides information regarding the website and repo.
 
 # Community Involvement:
 
