@@ -3,9 +3,6 @@
 Open-source website hosted with Github Pages using HTML, CSS, and JavaScript.
 Coded by therealtnm on Discord.
 
-# WARNING: YOU ARE NOT ALLOWED TO CLAIM THE CODE TO THIS REPO AS YOUR OWN.
-# YOU ARE NOT TO COPY AND PASTE, SKID, SELL, ADVERTISE, OR CLAIM THIS REPO. THIS REPO EXISTS ON A OPEN-SOURCE BASIS FOR PROOF OF ZERO MALICIOUS INTENT, IT IS NOT YOURS.
-
 # Table of Contents:
 
 -'index.html': The main source code which is what the site is defined as.
