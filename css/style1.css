@@ -29,5 +29,5 @@ body, html {
 }
 
 .fadeIn {
-    animation: matrixFadeIn 1s ease-in-out;
+    animation: matrixFadeIn 2s ease-in-out;
 }
