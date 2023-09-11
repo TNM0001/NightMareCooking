@@ -42,4 +42,5 @@ The MIT License is a permissive open-source license that allows you to use, copy
 # Credits: 
 
 -Lead Developer: therealtnm on Discord
+
 -Recipes Contributor: bubblegumbitch on Discord
