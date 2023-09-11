@@ -17,11 +17,17 @@ body, html {
     z-index: 1;
 }
 
-@keyframes fadeIn {
+@keyframes matrixFadeIn {
     0% {
         opacity: 0;
+        transform: perspective(500px) rotateY(90deg);
     }
     100% {
         opacity: 1;
+        transform: perspective(500px) rotateY(0deg);
     }
+}
+
+.fadeIn {
+    animation: matrixFadeIn 1s ease-in-out;
 }

@@ -3,6 +3,22 @@
 <head>
     <title>NightMare Recipes</title>
     <link rel="stylesheet" type="text/css" href="css/style1.css">
+    <style>
+        @keyframes matrixFadeIn {
+            0% {
+                opacity: 0;
+                transform: perspective(500px) rotateY(90deg);
+            }
+            100% {
+                opacity: 1;
+                transform: perspective(500px) rotateY(0deg);
+            }
+        }
+
+        .fadeIn {
+            animation: matrixFadeIn 1s ease-in-out;
+        }
+    </style>
 </head>
 <body>
     <div id="content">
@@ -17,7 +33,7 @@
             </ul>
         </nav>
         <main>
-            <section>
+            <section class="recipe1 fadeIn">
                 <h2>Recipe 1: Peanut Butter Brownies</h2>
                 <h3>Ingredients:</h3>
                 <ul>
@@ -40,7 +56,7 @@
                     <li>Just a pinch of salt</li>
                 </ul>
             
-                <h3>Directions:</h3>
+                <h3>Instructions:</h3>
                 <ol>
                     <li>Start by preheating your oven to 350°F (175°C). Grease a 9x13-inch baking pan and line it with parchment paper, leaving some paper hanging over the sides for easy removal later.</li>
                     <li>In a microwave-safe bowl or using a double boiler, melt 2 cups of semi-sweet chocolate chips and 2 sticks of butter together until they’re smooth. Let it cool for a bit.</li>
@@ -56,7 +72,8 @@
                     <li>Once they’re completely cool, cut them into squares and indulge in your homemade, rich semi-sweet chocolate brownies with that heavenly creamy peanut butter swirl on top!</li>
                 </ol>
             </section>
-            <section>
+            
+            <section class="recipe2 fadeIn">
                 <h2>Recipe 2: Mini Pita Pizzas</h2>
                 <h3>Ingredients:</h3>
                 <ul>
@@ -78,7 +95,8 @@
                     <li>Remove from the oven, let them cool for a minute or two, then slice them into wedges or enjoy them whole.</li>
                 </ol>
             </section>
-            <section>
+            
+            <section class="recipe3 fadeIn">
                 <h2>Recipe 3: Cheesy Quesadillas</h2>
                 <h3>Ingredients:</h3>
                 <ul>
