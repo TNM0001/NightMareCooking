@@ -1,4 +1,4 @@
-# TNM.gay
+# TNM.lol
 
 Open-source website hosted with Github Pages using HTML, CSS, and JavaScript.
 Coded by therealtnm on Discord.
